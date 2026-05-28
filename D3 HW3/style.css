@@ -1,0 +1,64 @@
+/* Our chart styling with CSS as before*/
+            .axis path, 
+            .axis line{
+                stroke: midnightblue;
+            }
+
+            .axis text{
+                font-family: sans-serif;
+                font-size: 10px;
+                fill: midnightblue;
+                }
+            
+            .line {
+                fill: none; 
+                stroke-width: 2px;
+            }
+            
+            .california { stroke: lightblue; }
+            .texas { stroke: salmon; }
+            .newyork { stroke: lightgreen; }
+            .florida { stroke: lightsalmon; }
+            .illinois { stroke: violet; }
+
+        /* NEW: styling the buttons we add below*/
+            button {
+                display: inline-block;
+                background-color: midnightblue;
+                border: none;
+                color: white;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 2px; 
+                font-size: 12px;   
+            }
+
+            button:hover {
+                background-color: mediumvioletred;
+            }
+            
+            /*NEW: style the h1*/
+            h1 {
+                font-family: sans-serif;
+                font-size: 28px;
+                color: midnightblue;
+            }
+            /*style each button by its id*/
+            #buttonCalifornia {
+                background-color: lightblue;
+            }
+            #buttonTexas {
+                background-color: salmon;
+            }
+
+            #buttonNewYork {
+                background-color: lightgreen;
+            }
+
+            #buttonFlorida {
+                background-color: lightsalmon;
+            }
+
+            #buttonIllinois {
+                background-color: violet;
+            }
